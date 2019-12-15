@@ -1,13 +1,13 @@
 import React, { Component } from 'react'
 import Categories from './Categories'
 
-export default class Ideas extends Component {
+export default class Other extends Component {
     render() {
         return (
             <div>
-                Ideas Show page
+                Other Pages
+                <Categories/>
 
-<Categories/>
             </div>
         )
     }
