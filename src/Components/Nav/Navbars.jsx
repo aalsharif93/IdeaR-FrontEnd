@@ -12,9 +12,10 @@ import Login from '../Auth/Login';
 import Register from '../Auth/Register';
 import Ideas from '../Ideas/Ideas';
 import Create from '../Ideas/Create';
-import Food from '../Ideas/Food'
-import Games from '../Ideas/Games'
-import Other from '../Ideas/Other'
+import Food from '../Ideas/category/Food'
+import Games from '../Ideas/category/Games'
+import Other from '../Ideas/category/Other'
+import Idea from '../Ideas/Idea';
 
 
 
@@ -52,6 +53,7 @@ export default class Navbars extends Component {
             <Route path="/Login" component={Login} />
             <Route path="/Create" component={Create} />
             <Route path="/Ideas/Food" component={Food} />
+            <Route path="/Ideas/Food/${:id}" component={Idea} />
             <Route path="/Ideas/Games" component={Games} />
             <Route path="/Ideas/Other" component={Other} />
             <Route path="/Ideas" component={Ideas} />
