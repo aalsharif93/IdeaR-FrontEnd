@@ -9,12 +9,12 @@ export default class Register extends Component {
                 <Form >
           <Form.Group controlId="formBasicFirstName">
             <Form.Label>First Name</Form.Label>
-            <Form.Control type="name" placeholder="First Name" name="name" onChange={this.onChange}/>
+            <Form.Control type="name" placeholder="First name" name="name" onChange={this.onChange}/>
           </Form.Group>
 
           <Form.Group controlId="formBasicLastName">
             <Form.Label>Last Name</Form.Label>
-            <Form.Control type="name" placeholder="name"  name="name" onChange={this.onChange}/>
+            <Form.Control type="name" placeholder="Last name"  name="name" onChange={this.onChange}/>
           </Form.Group>
 
           <Form.Group controlId="formBasicEmail">
@@ -29,7 +29,7 @@ export default class Register extends Component {
           <Form.Group controlId="formBasicCheckbox">
             <Form.Check type="checkbox" label="Check me out" />
           </Form.Group>
-          <Button style={{marginBottom:'300%'}} variant="primary" type="submit">
+          <Button   variant="primary" type="submit">
             Submit
           </Button>
         </Form>

@@ -10,41 +10,19 @@ export default class Food extends Component {
                 Food page
                 <Categories/>
 
-                <Card style={{ width: '18rem' }}>
-  <Card.Img variant="top" src="https://via.placeholder.com/286x180" />
-  <Card.Body>
-    <Card.Title>Card Title</Card.Title>
-    <Card.Text>
-      Some quick example text to build on the card title and make up the bulk of
-      the card's content.
-    </Card.Text>
-    <Button variant="primary">Go somewhere</Button>
-  </Card.Body>
-</Card> 
-
 <Card style={{ width: '18rem' }}>
-  <Card.Img variant="top" src="https://via.placeholder.com/286x180" />
-  <Card.Body>
-    <Card.Title>Card Title</Card.Title>
-    <Card.Text>
-      Some quick example text to build on the card title and make up the bulk of
-      the card's content.
-    </Card.Text>
-    <Button variant="primary">Go somewhere</Button>
-  </Card.Body>
-</Card> 
+    <Card.Body>
+    <Card.Title><b>title of Ideas Food</b></Card.Title>
+      <Card.Text>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore quis delectus ipsa commodi voluptas repudiandae? Quo sit incidunt velit aliquam rem laboriosam quam deleniti doloremque amet. Asperiores ipsum itaque magnam..
+      </Card.Text>
+      <Card.Text>
+        <small className="text-muted">Last updated 3 mins ago</small>
+      </Card.Text>
+    </Card.Body>
+    <Button href="/Ideas/Food" variant="primary">Read More</Button>
+  </Card>
 
-<Card style={{ width: '18rem' }}>
-  <Card.Img variant="top" src="https://via.placeholder.com/286x180" />
-  <Card.Body>
-    <Card.Title>Card Title</Card.Title>
-    <Card.Text>
-      Some quick example text to build on the card title and make up the bulk of
-      the card's content.
-    </Card.Text>
-    <Button variant="primary">Go somewhere</Button>
-  </Card.Body>
-</Card> 
 
             </div>
         )

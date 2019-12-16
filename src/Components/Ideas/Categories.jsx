@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import { ListGroup, Col, Tab,Row } from 'react-bootstrap';
-import Food from './Food';
 
 
 export default class Categories extends Component {
@@ -9,31 +8,31 @@ export default class Categories extends Component {
             <div>
               
   <Row>
-    <Col sm={2}>
+    <Col sm={3}>
         <ListGroup.Item>
         category
         </ListGroup.Item>
       <ListGroup>
-        <ListGroup.Item action href="/Food">
+        <ListGroup.Item action href="/Ideas/Food">
           Food
         </ListGroup.Item>
-        <ListGroup.Item action href="/Games">
+        <ListGroup.Item action href="/Ideas/Games">
           Games
         </ListGroup.Item>
-        <ListGroup.Item action href="/Other">
+        <ListGroup.Item action href="/Ideas/Other">
           Other
         </ListGroup.Item>
       </ListGroup>
     </Col>
-    <Col sm={4}>
+    <Col sm={3}>
       <Tab.Content>
-        <Tab.Pane eventKey="/Food">
+        <Tab.Pane eventKey="/Ideas/Food">
      
         </Tab.Pane>
-        <Tab.Pane eventKey="/Games">
+        <Tab.Pane eventKey="/Ideas/Games">
          
         </Tab.Pane>
-        <Tab.Pane eventKey="/Other">
+        <Tab.Pane eventKey="/Ideas/Other">
          
          </Tab.Pane>
       </Tab.Content>

@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import {  Button, Form , Alert } from 'react-bootstrap'
+import {  Button, Form } from 'react-bootstrap'
 export default class Login extends Component {
     render() {
         return (
@@ -22,7 +22,7 @@ export default class Login extends Component {
           <Form.Group controlId="formBasicCheckbox">
             <Form.Check type="checkbox" label="Check me out" />
           </Form.Group>
-          <Button style={{marginBottom:'300%'}} variant="primary" type="submit">
+          <Button variant="primary" type="submit">
             Submit
           </Button>
         </Form>
